@@ -29,6 +29,10 @@ public class JugadorServiceImpl implements JugadorService{
         return jugadorRepository.save(jugador);
     }
 
+    @Override
+    public void deleteJugadorById(Long id) {
+        jugadorRepository.deleteById(id);
+    }
 
 
 }

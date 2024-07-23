@@ -9,6 +9,7 @@ public interface JugadorService {
     List<Jugador> getAllJugadores();
     Optional<Jugador> getJugadorById(Long id);
     Jugador saveJugador(Jugador jugador);
+    void deleteJugadorById(Long id);
 
 
 }

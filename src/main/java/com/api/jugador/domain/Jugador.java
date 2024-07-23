@@ -19,7 +19,7 @@ public class Jugador {
     @Column(nullable = false)
     private String nombre;
     @Column(nullable = false)
-    private int media;
+    private Long media;
     @Column(nullable = false)
     private String email;
 
